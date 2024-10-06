@@ -1,0 +1,108 @@
+* {
+	--main-color: #8eaccd;
+	--second-color: #d4e1e5;
+	--bg-color: #fef9d9;
+	--bord-color: #d2e0fb;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-form {
+	font-family: sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 600px;
+	padding: 30px;
+	background-color: var(--bg-color);
+	border: 1px solid var(--bord-color);
+	box-shadow: 1px 2px 8px 5px var(--second-color);
+	border-radius: 20px;
+ 
+  
+}
+
+.login-form h1 {
+	font-size: 30px;
+	font-weight: bold;
+	color:var(--main-color);
+	text-align: center;
+	padding: 20px;
+}
+
+.login-form div {
+	margin:10px;
+  margin-right:auto;
+  margin-left:auto;
+
+}
+
+label {
+	font-size: 20px;
+	color: var(--main-color);
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+input {
+	width: 300px;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 20px;
+	border: none;
+}
+
+input:hover {
+	outline: 2px solid var(--main-color);
+	border-color: var(--main-color);
+}
+
+.check {
+	width: 30px;
+	padding: 30px;
+}
+.check:hover {
+	outline: none;
+	cursor: pointer;
+}
+
+button {
+	font-size: 20px;
+	padding: 10px;
+	width: 100px;
+	background-color: var(--main-color);
+	cursor: pointer;
+	border: none;
+	color: var(--bg-color);
+
+}
+
+.sub {
+	float: right;
+	width: 400px;
+	
+  margin :20px;
+}
+.foot {
+  margin-top :40px;
+}
+.foot button {
+	width: 200px;
+	padding: 10px;
+	margin-left:30px;
+  
+}
+button:hover {
+
+  background-color :#6482AD;
+}
+
+.foot p {
+	display: inline-block;
+}
+
+

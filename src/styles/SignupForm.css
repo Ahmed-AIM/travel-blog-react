@@ -1,0 +1,73 @@
+/* Remove the global body styles that affect all pages */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FEF9F9;
+  margin: 0;
+  /* Remove display: flex, justify-content: center, align-items: center to avoid centering all content */
+}
+
+.signup-form-container {
+  background-color: #D2E0FB;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto; /* Center the form horizontally and add space at the top */
+}
+
+.signup-form h2 {
+  text-align: center;
+  color: #8EACCD;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #DEE5D4;
+  border-radius: 5px;
+  background-color: #FEF9F9;
+}
+
+.dob-selectors {
+  display: flex;
+  gap: 10px;
+}
+
+.dob-selectors select {
+  width: 100%;
+}
+
+.profile-preview {
+  margin-top: 10px;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+}
+
+.signup-button {
+  background-color: #8EACCD;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-button:hover {
+  background-color: #6F90B2;
+}
