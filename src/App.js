@@ -9,6 +9,8 @@ import SignupForm from "./components/SignupForm";
 import BlogPostForm from './components/BlogPostForm';
 import HomePage from './components/HomePage';  // Import the new HomePage component
 import LoginPage from './components/LoginPage';
+import UserDashboard from './components/UserDashboard'; // Add this line
+import ProtectedRoute from './components/ProtectedRoute '; // Remove the space before .jsx
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -41,6 +43,9 @@ function App() {
 
             <Route path="/signup" element={<SignupForm />} />
             <Route path="/login" element={<LoginPage />} />
+            <Route element={<ProtectedRoute />}>
+              <Route path="/dashboard" element={<UserDashboard />} />
+            </Route>
           </Routes>
           <Footer /> {/* Footer will also be present on every page */}
         </div>

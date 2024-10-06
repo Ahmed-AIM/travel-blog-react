@@ -66,6 +66,11 @@ const NavBar = () => {
               Contact us
             </button>
           </li>
+          {user && (
+            <li>
+              <Link to="/dashboard" className="navbar-link">Dashboard</Link>
+            </li>
+          )}
         </ul>
         <div className="navbar-auth">
           <li>
@@ -79,8 +84,6 @@ const NavBar = () => {
             <Link to="/signup" className="navbar-link signup-btn">Signup</Link>
           </li>
         </div>
-
-
       </div>
     </nav>
   );
