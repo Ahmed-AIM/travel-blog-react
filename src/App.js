@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';  // Correct import
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';  // Correct import
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
